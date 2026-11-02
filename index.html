@@ -26,6 +26,15 @@
       margin-bottom: 10px;
     }
 
+    .subtitle {
+      font-size: 1.05rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #64748b;
+      margin-top: 0;
+      margin-bottom: 24px;
+    }
+
     p {
       font-size: 1rem;
       line-height: 1.6;
@@ -56,13 +65,21 @@
 
 <body>
   <div class="container">
-    <h1>Publications Over Time</h1>
+  <h1>Models vs. Measures: Publications Over Time</h1>
+
+  <p class="subtitle">
+    Publication years of the reviewed literature, , comparing the Models
+    and Measures collections.
+  </p>
+
   <p>
-This interactive chart displays the number of publications per year, grouped into 
-<strong>Models</strong> and <strong>Measures</strong>. 
-Hover over the bars for exact counts, and use the legend to toggle categories. 
-The data reveals a strong increase in measure-related research after 2015.
-</p>
+    The chart compares publication counts across the two literature
+    collections. Publications before 1995 are grouped into a single
+    category. Hover over the bars for exact counts, or use the legend
+    to toggle collections.
+  </p>
+
+   <!--
    <section class="chart-section">
       <h2>Annual Publications</h2>
       <iframe
@@ -71,9 +88,9 @@ The data reveals a strong increase in measure-related research after 2015.
         loading="lazy">
       </iframe>
     </section>
+    -->
 
     <section class="chart-section">
-      <h2>Publications Since 1995</h2>
       <iframe
         src="charts/publications-over-time-1995.html"
         title="Publications with historical aggregation"
@@ -81,11 +98,21 @@ The data reveals a strong increase in measure-related research after 2015.
       </iframe>
     </section>
 
+    <h1>Inside the Models Collection: Topics Over Time</h1>
+    <p class="subtitle">
+      Publication years of the reviewed literature, grouped by five identified research topics.
+    </p>
+
+    <p>
+      The chart shows publication counts across five identified topics
+      in the reviewed literature on models of visual aesthetics.
+      Publications before 1995 are grouped into a single category.
+    </p>
+
      <section class="chart-section">
-      <h2>Annual Publications</h2>
       <iframe
         src="charts/models_temporal_interactive.html"
-        title="Annual publications"
+        title="Models of Visual Aesthetics: Temporal Distribution by Topic"
         loading="lazy">
       </iframe>
     </section>
