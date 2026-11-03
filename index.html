@@ -16,9 +16,11 @@
     }
 
     .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 40px 20px;
+        max-width: 1200px;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 40px 20px;
     }
 
     h1 {
@@ -43,8 +45,9 @@
     }
 
     .chart-section {
-      margin-top: 40px;
-      margin-bottom: 60px;
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 60px;
     }
 
     .chart-section h2 {
@@ -54,12 +57,13 @@
     }
 
     iframe {
-      display: block;
-      width: 100%;
-      height: 550px;
-      border: none;
-      border-radius: 8px;
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        height: 550px;
+        border: none;
     }
+    
   </style>
 </head>
 
@@ -68,7 +72,7 @@
   <h1>Models vs. Measures: Publications Over Time</h1>
 
   <p class="subtitle">
-    Publication years of the reviewed literature, , comparing the Models
+    Publication years of the reviewed literature, comparing the Models
     and Measures collections.
   </p>
 
@@ -112,7 +116,7 @@
 
      <section class="chart-section">
       <iframe
-        src="charts/models_temporal_interactive.html"
+        src="charts/models_temporal_bars.html"
         title="Models of Visual Aesthetics: Temporal Distribution by Topic"
         loading="lazy">
       </iframe>
