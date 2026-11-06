@@ -1,9 +1,14 @@
 
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use or refer to these interactive visualizations, please cite this repository."
 
 type: software
 title: "AestheticsVis"
+
+abstract: >-
+  A collection of interactive visualizations
+  accompanying a literature review on aesthetic
+  models and measures.
 
 authors:
   - family-names: "Stoll"
@@ -14,7 +19,7 @@ date-released: 2026-11-06
 
 doi: "10.5281/zenodo.24005432"
 
-url: "https://github.com/elenalenaelena/AestheticsVis"
+url: "https://elenalenaelena.github.io/AestheticsVis/"
 repository-code: "https://github.com/elenalenaelena/AestheticsVis"
 
 license: MIT
