@@ -1,0 +1,20 @@
+
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+
+type: software
+title: "AestheticsVis"
+
+authors:
+  - family-names: "Stoll"
+    given-names: "Elena"
+
+version: 1.0.0
+date-released: 2026-11-06
+
+doi: "10.5281/zenodo.24005432"
+
+url: "https://github.com/elenalenaelena/AestheticsVis"
+repository-code: "https://github.com/elenalenaelena/AestheticsVis"
+
+license: MIT
